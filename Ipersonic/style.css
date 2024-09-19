@@ -22,6 +22,27 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.topmenu {
+    text-align: right;
+}
+.topmenu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.topmenu ul li {
+    display: inline-block;
+}
+.topmenu ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px 11px 20px;
+    font-size: 14px;
+}
+.topmenu ul li a:hover {
+    background-color: black;
+}
 .btn {
     display: inline-block;
     background-color: #cccccc;
@@ -38,6 +59,9 @@ body {
 }
 .btn-lg {
     font-size: 18px;
+}
+.icon-sm {
+    font-size: 10px;
 }
 .bg-red {
     background-color: red;
