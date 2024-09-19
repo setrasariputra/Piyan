@@ -22,6 +22,23 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.btn {
+    display: inline-block;
+    background-color: #cccccc;
+    color: #333333;
+    text-decoration: none;
+    padding: 3px 10px 3px 10px;
+}
+.btn-sm {
+    font-size: 12px;
+}
+.btn-orange {
+    background-color: #FF7518;
+    color: #ffffff;
+}
+.btn-lg {
+    font-size: 18px;
+}
 .bg-red {
     background-color: red;
 }
