@@ -12,3 +12,19 @@ body {
     max-width: 1150px;
     margin: auto;
 }
+.grid {
+    display: grid;
+}
+.grid-2 {
+    grid-template-columns: 1fr 2fr;
+}
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
