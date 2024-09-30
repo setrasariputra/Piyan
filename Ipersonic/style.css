@@ -106,4 +106,7 @@ body {
     .topmenu ul {
         display: none;
     }
+    .grid-2 {
+        grid-template-columns: 2fr 1fr;
+    }
 }
