@@ -95,6 +95,9 @@ body {
 .hide-767 {
     display: inline-block;
 }
+.show-767 {
+    display: none;
+}
 @media (max-width: 1199px) {
     .container {
         max-width: 950px;
@@ -117,5 +120,8 @@ body {
     }
     .hide-767 {
         display: none;
+    }
+    .show-767 { 
+        display: inline-block;
     }
 }
