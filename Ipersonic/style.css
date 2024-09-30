@@ -89,6 +89,12 @@ body {
 .bg-blue {
     background-color: blue;
 }
+.topmenu ul li.hide-767 {
+    display: inline-block;
+}
+.hide-767 {
+    display: inline-block;
+}
 @media (max-width: 1199px) {
     .container {
         max-width: 950px;
@@ -103,10 +109,13 @@ body {
     .container {
         width: 95%;
     }
-    .topmenu ul {
-        display: none;
-    }
     .grid-2 {
         grid-template-columns: 2fr 1fr;
+    }
+    .topmenu ul li.hide-767 {
+        display: none;
+    }
+    .hide-767 {
+        display: none;
     }
 }
