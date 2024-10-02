@@ -48,20 +48,26 @@ body {
     display: none;
     position: absolute;
     background-color: #eeeeee;
+    width: 250px;
 }
 .topmenu li:hover ul {
     display: block;
 }
 .topmenu li:hover ul li {
     display: block;
+    border-bottom: 1px solid #dddddd;
 }
 .topmenu li:hover ul li a {
     color: #333333;
     text-align: left;
+    background-color: #eeeeee;
 }
 .topmenu li:hover ul li a:hover {
     color: #ffffff;
     background-color: #2799db;
+}
+.topmenu li:hover a {
+    background-color: black;
 }
 .btn {
     display: inline-block;
@@ -123,5 +129,9 @@ body {
     }
     .show-767 { 
         display: inline-block;
+    }
+    .topmenu li:hover ul {
+        display: block;
+        margin-left: -200px;
     }
 }
