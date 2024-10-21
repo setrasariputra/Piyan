@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -74,10 +77,12 @@ body {
     background-color: #cccccc;
     color: #333333;
     text-decoration: none;
-    padding: 3px 10px 3px 10px;
+    padding: 15px 20px 15px 20px;
+    font-size: 14px;
 }
 .btn-sm {
     font-size: 12px;
+    padding: 3px 10px 3px 10px;
 }
 .btn-orange {
     background-color: #FF7518;
@@ -106,14 +111,15 @@ body {
 }
 .jumbotron {
     background: linear-gradient(to bottom, #E2EBF0, #CFD9DF);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .jumbotron h1 {
+    margin: 0px;
+    padding: 0px;
     font-size: 70px;
     line-height: 1.2;
     color: #333333;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .font-weight-light {
     font-weight: 100;
@@ -147,5 +153,8 @@ body {
     .topmenu li:hover ul {
         display: block;
         margin-left: -200px;
+    }
+    .jumbotron h1 {
+        font-size: 40px;
     }
 }
