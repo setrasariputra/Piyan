@@ -104,6 +104,20 @@ body {
 .show-767 {
     display: none;
 }
+.jumbotron {
+    background: linear-gradient(to bottom, #E2EBF0, #CFD9DF);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.jumbotron h1 {
+    font-size: 70px;
+    line-height: 1.2;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font-weight-light {
+    font-weight: 100;
+}
 @media (max-width: 1199px) {
     .container {
         max-width: 950px;
