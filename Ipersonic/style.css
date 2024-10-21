@@ -132,6 +132,18 @@ body {
 .lead {
     font-size: 20px;
 }
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #A699B0;
+}
+.footer a {
+    text-decoration: none;
+    color: #279AEC;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
 @media (max-width: 1199px) {
     .container {
         max-width: 950px;
