@@ -133,6 +133,9 @@ body {
 .lead {
     font-size: 20px;
 }
+h1.bigger {
+    font-size: 40px;
+}
 .footer {
     text-align: center;
     font-size: 14px;
@@ -144,6 +147,10 @@ body {
 }
 .footer a:hover {
     text-decoration: underline;
+}
+hr {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: none;
 }
 @media (max-width: 1199px) {
     .container {
