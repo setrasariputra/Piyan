@@ -148,6 +148,28 @@ h1.bigger {
 .footer a:hover {
     text-decoration: underline;
 }
+.quiz {
+    
+}
+.quiz .quiz-step {
+    margin-top: 20px;
+}
+.quiz .quiz-step ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.quiz .quiz-step ul li {
+    display: inline-block;
+    padding: 7px 10px 7px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    color: #999999;
+}
+.quiz .quiz-step ul li.active {
+    background-color: #AAAAAA;
+    color: white;
+}
 hr {
     border-top: 1px solid #E6E6E6;
     border-bottom: none;
